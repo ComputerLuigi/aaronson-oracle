@@ -4,7 +4,7 @@ class Model:
     def __init__(self, CHARSET, MAX_GRAM_LENGTH):
         self.data = {}
         self.input = ""
-        self.CHARSET = charset
+        self.CHARSET = CHARSET
         self.MAX_GRAM_LENGTH = MAX_GRAM_LENGTH
 
     def __update(self, gram, x):
