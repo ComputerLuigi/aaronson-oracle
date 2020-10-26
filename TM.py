@@ -16,4 +16,4 @@ def ListXOR(l1, l2):
     return x
 
 
-a = thue_morse_digits(int(sys.argv[1]))
+##a = thue_morse_digits(int(sys.argv[1]))
