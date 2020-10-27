@@ -3,6 +3,21 @@
 This project provides the base code you would need to build a two-button
 pressor predictor on the Raspberry Pi.
 
+## Quick Start
+
+$ python script.py (a)
+
+generates (a) digits of binary strings from TM and feeds them through the predictor
+guesses are recorded from each step and correct guesses are counted and the count printed in the order
+
+-Thue Morse digits
+-Balanced binary random (count(0) - count(1) < 2)
+-Binary random digits
+-Alternating digits 
+
+Functions as a test. For reasonable values of a (a>20), the accuracies tend towards the following inequality.
+BR = BBR < TM < AD
+
 ## How To Use `oracle.py`
 
 This repository comes with a Python module `oracle.py` which provides a
