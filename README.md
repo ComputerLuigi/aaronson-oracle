@@ -5,15 +5,15 @@ pressor predictor on the Raspberry Pi.
 
 ## Quick Start
 
-$ python script.py (a)
+> $ python script.py (a)
 
 generates (a) digits of binary strings from TM and feeds them through the predictor
 guesses are recorded from each step and correct guesses are counted and the count printed in the order
 
--Thue Morse digits
--Balanced binary random (count(0) - count(1) < 2)
--Binary random digits
--Alternating digits 
+- Thue Morse digits
+- Balanced binary random (count(0) - count(1) < 2)
+- Binary random digits
+- Alternating digits 
 
 Functions as a test. For reasonable values of a (a>20), the accuracies tend towards the following inequality.
 BR = BBR < TM < AD
